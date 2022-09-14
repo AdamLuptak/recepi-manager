@@ -1,0 +1,11 @@
+INSERT INTO public.recipe (id, account_id, created_at, updated_at, eater_type, title, instructions, servings_count, version) VALUES ('ea0a5553-1c34-478a-bacb-a463a74b4980', '1', '2022-09-12 18:09:08.639952', '2022-09-12 18:09:08.639952', 0, 'Pizza', 'Create pizza', 5, 0);
+INSERT INTO public.recipe (id, account_id, created_at, updated_at, eater_type, title, instructions, servings_count, version) VALUES ('e46067f1-64ae-4286-bb2f-07c34d0e05e8', '1', '2022-09-12 18:09:08.666324', '2022-09-12 18:09:08.666324', 1, 'Bread', 'Create Bread, put into oven', 4, 0);
+INSERT INTO public.recipe (id, account_id, created_at, updated_at, eater_type, title, instructions, servings_count, version) VALUES ('dcc934e7-1cf0-4aca-a76e-df7a6a65b8a8', '1', '2022-09-12 18:09:08.666324', '2022-09-12 18:09:08.666324', 1, 'Bread', 'Create Bread, put into oven', 6, 0);
+
+
+
+INSERT INTO public.ingredient (id, account_id, created_at, updated_at, amount, description, value, recipe_id) VALUES ('c13d4156-1be6-48ee-b7b1-5cc328850500', 1, '2022-09-12 18:09:08.661682', '2022-09-12 18:09:08.661682', 2.00, 'water', 'liter', 'ea0a5553-1c34-478a-bacb-a463a74b4980');
+INSERT INTO public.ingredient (id, account_id, created_at, updated_at, amount, description, value, recipe_id) VALUES ('3f507f52-5acd-4fb9-84d3-742e751c256d', 1, '2022-09-12 18:09:08.665671', '2022-09-12 18:09:08.665671', 2.00, 'potatoes', 'pcs', 'ea0a5553-1c34-478a-bacb-a463a74b4980');
+INSERT INTO public.ingredient (id, account_id, created_at, updated_at, amount, description, value, recipe_id) VALUES ('c98f9137-820f-46f6-8b0f-5860de826234', 1, '2022-09-12 18:09:08.666638', '2022-09-12 18:09:08.666638', 2.00, 'salmon', 'liter', 'e46067f1-64ae-4286-bb2f-07c34d0e05e8');
+INSERT INTO public.ingredient (id, account_id, created_at, updated_at, amount, description, value, recipe_id) VALUES ('06dc4074-3341-11ed-a261-0242ac120002', 1, '2022-09-12 18:09:08.666638', '2022-09-12 18:09:08.666638', 2.00, 'potatoes', 'liter', 'e46067f1-64ae-4286-bb2f-07c34d0e05e8');
+INSERT INTO public.ingredient (id, account_id, created_at, updated_at, amount, description, value, recipe_id) VALUES ('03a2d69e-3340-11ed-a261-0242ac120002', 1, '2022-09-12 18:09:08.666978', '2022-09-12 18:09:08.666978', 2.00, 'potatoes', 'pcs', 'dcc934e7-1cf0-4aca-a76e-df7a6a65b8a8');
